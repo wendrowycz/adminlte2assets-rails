@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Integrates the AdminLTE theme with the Rails asset pipeline}
   spec.description   = %q{AdminLTE is a premium Bootstrap theme for Backend.}
-  spec.homepage      = "https://github.com/wendrowycz/adminlte2assets"
+  spec.homepage      = "https://github.com/wendrowycz/adminlte2assets-rails"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -28,6 +28,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "railties", "~> 4.1"
+  spec.add_runtime_dependency "jquery-rails", "~> 4.1"
   spec.add_runtime_dependency "bootstrap-sass", "~> 3.3"
   spec.add_runtime_dependency "sass-rails", "~> 5.0"
   spec.add_runtime_dependency "font-awesome-rails", "~> 4.6"
